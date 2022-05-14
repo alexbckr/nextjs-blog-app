@@ -1,3 +1,5 @@
 # Fullstack Authentication Example with Next.js and NextAuth.js
 
-This is the starter project for the fullstack tutorial with Next.js and Prisma. You can find the final version of this project in the [`final`](https://github.com/prisma/blogr-nextjs-prisma/tree/final) branch of this repo.
+Followed [this incredible tutorial](https://vercel.com/guides/nextjs-prisma-postgres).
+
+Got super frustrated with the "server error" when logging in, but finally figured out I had to override the build command on Vercel: `prisma generate && next build`. Duly noted.
